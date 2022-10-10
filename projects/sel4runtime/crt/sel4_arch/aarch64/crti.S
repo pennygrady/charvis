@@ -6,11 +6,11 @@
 .section .init
 .global _init
 _init:
-	stp fp, lr, [sp, -16]!
-	mov fp, sp
+	stp x29, x30, [sp, -16]!
+	mov x29, sp
 
 .section .fini
 .global _fini
 _fini:
-	stp fp, lr, [sp, -16]!
-	mov fp, sp
+	stp x29, x30, [sp, -16]!
+	mov x29, sp

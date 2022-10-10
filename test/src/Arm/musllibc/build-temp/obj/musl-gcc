@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "${REALGCC:-/usr/bin/aarch64-linux-gnu-gcc}" "$@" -specs "/home/chen/sel4/charvis/test/src/Arm/musllibc/build-temp/stage/lib/musl-gcc.specs"

@@ -1,1 +1,1 @@
-projects/vm-examples/easy-settings.cmake
+projects/charvis/easy-settings.cmake

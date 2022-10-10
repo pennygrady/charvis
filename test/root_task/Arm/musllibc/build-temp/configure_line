@@ -1,0 +1,1 @@
+--srcdir=/home/chen/sel4/charvis/projects/musllibc --prefix=/home/chen/sel4/charvis/test/root_task/Arm/musllibc/build-temp/stage  --target=aarch64 --enable-warnings --disable-shared --enable-static

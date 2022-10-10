@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "allocman.h": "c",
+        "object.h": "c",
+        "vka.h": "c",
+        "bootinfo.h": "c",
+        "vpci.h": "c"
+    }
+}

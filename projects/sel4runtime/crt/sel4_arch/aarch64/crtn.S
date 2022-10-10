@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: BSD-2-Clause
  */
 .section .init
-	ldp fp, lr, [sp], #16
+	ldp x29, x30, [sp], #16
 	ret
 
 .section .fini
-	ldp fp, lr, [sp], #16
+	ldp x29, x30, [sp], #16
 	ret

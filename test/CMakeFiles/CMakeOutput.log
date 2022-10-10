@@ -1,0 +1,275 @@
+The target system is: Generic -  - seL4CPU
+The host system is: Linux - 5.15.0-46-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/aarch64-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/chen/sel4/charvis/test/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/aarch64-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/chen/sel4/charvis/test/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+aarch64-linux-gnu-gcc (Linaro GCC 7.3-2018.05) 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701]
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e2722 && [1/2] Building C object CMakeFiles/cmTC_e2722.dir/testCCompiler.c.obj
+[2/2] Linking C static library libcmTC_e2722.a
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_18f5f && [1/2] Building C object CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc
+Target: aarch64-linux-gnu
+Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu
+Thread model: posix
+gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/7.3.1/cc1 -quiet -v -imultiarch aarch64-linux-gnu -iprefix /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/ -isysroot /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccbE8oVl.s
+GNU C11 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (aarch64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-linux-gnu/7.3.1/include"
+ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/local/include"
+ignoring duplicate directory "/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed"
+ignoring duplicate directory "/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/include"
+ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/include
+ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed
+ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/include
+End of search list.
+GNU C11 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (aarch64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: feec774fd8ac1eade5531d3baf102147
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/bin/as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj /tmp/ccbE8oVl.s
+GNU assembler version 2.28.2 (aarch64-linux-gnu) using BFD version (Linaro_Binutils-2018.05) 2.28.2.20170706
+COMPILER_PATH=/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/7.3.1/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/lib/../lib64/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+[2/2] Linking C static library libcmTC_18f5f.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/include]
+    add: [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed]
+    add: [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/include]
+  end of search list found
+  collapse include dir [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/include] ==> [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include]
+  collapse include dir [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed] ==> [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed]
+  collapse include dir [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/include] ==> [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include]
+  implicit include dirs: [/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include;/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed;/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_18f5f && [1/2] Building C object CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/7.3.1/cc1 -quiet -v -imultiarch aarch64-linux-gnu -iprefix /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/ -isysroot /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccbE8oVl.s]
+  ignore line: [GNU C11 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-linux-gnu/7.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/../../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/include]
+  ignore line: [ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/include-fixed]
+  ignore line: [ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: feec774fd8ac1eade5531d3baf102147]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/bin/as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj /tmp/ccbE8oVl.s]
+  ignore line: [GNU assembler version 2.28.2 (aarch64-linux-gnu) using BFD version (Linaro_Binutils-2018.05) 2.28.2.20170706]
+  ignore line: [COMPILER_PATH=/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/7.3.1/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/lib/../lib64/:/home/chen/Downloads/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/7.3.1/../../../../aarch64-linux-gnu/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_18f5f.dir/CMakeCCompilerABI.c.obj' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [[2/2] Linking C static library libcmTC_18f5f.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c656e && [1/2] Building CXX object CMakeFiles/cmTC_c656e.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX static library libcmTC_c656e.a
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a1c58 && [1/2] Building CXX object CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccd4zNkk.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc-cross/aarch64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9/aarch64-linux-gnu
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9/backward
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/include
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9e5d158cf7d91a123eb60f37e1dae775
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccd4zNkk.s
+GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+[2/2] Linking CXX static library libcmTC_a1c58.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9]
+    add: [/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9/aarch64-linux-gnu]
+    add: [/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9/backward]
+    add: [/usr/lib/gcc-cross/aarch64-linux-gnu/9/include]
+    add: [/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9] ==> [/usr/aarch64-linux-gnu/include/c++/9]
+  collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9/aarch64-linux-gnu] ==> [/usr/aarch64-linux-gnu/include/c++/9/aarch64-linux-gnu]
+  collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9/backward] ==> [/usr/aarch64-linux-gnu/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/9/include] ==> [/usr/lib/gcc-cross/aarch64-linux-gnu/9/include]
+  collapse include dir [/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include] ==> [/usr/aarch64-linux-gnu/include]
+  implicit include dirs: [/usr/aarch64-linux-gnu/include/c++/9;/usr/aarch64-linux-gnu/include/c++/9/aarch64-linux-gnu;/usr/aarch64-linux-gnu/include/c++/9/backward;/usr/lib/gcc-cross/aarch64-linux-gnu/9/include;/usr/aarch64-linux-gnu/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_a1c58 && [1/2] Building CXX object CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --program-prefix=aarch64-linux-gnu- --includedir=/usr/aarch64-linux-gnu/include]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -isysroot /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccd4zNkk.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc-cross/aarch64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9]
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9/aarch64-linux-gnu]
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/include]
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 9e5d158cf7d91a123eb60f37e1dae775]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccd4zNkk.s]
+  ignore line: [GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/aarch64-linux-gnu/9/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_a1c58.dir/CMakeCXXCompilerABI.cpp.obj' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [[2/2] Linking CXX static library libcmTC_a1c58.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test compiler_arch_test succeeded with the following output:
+Change Dir: /home/chen/sel4/charvis/test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4a546 && [1/2] Building C object CMakeFiles/cmTC_4a546.dir/src.c.obj
+[2/2] Linking C static library libcmTC_4a546.a
+
+
+Source file was:
+
+#if defined(__aarch64__)
+    int main() {return 0;}
+#else
+#error Invalid arch
+#endif
+    

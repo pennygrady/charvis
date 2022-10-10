@@ -14,7 +14,6 @@ set -eu
 SCRIPT_PATH=${0%/*}
 # Save script name for diagnostic messages (fast, cheap "basename").
 SCRIPT_NAME=${0##*/}
-
 # Ensure script path and current working directory are not the same.
 if [ "$PWD" = "$SCRIPT_PATH" ]
 then

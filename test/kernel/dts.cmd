@@ -1,0 +1,1 @@
+regen /home/chen/sel4/charvis/test/kernel/kernel.dtb /home/chen/sel4/charvis/test/virt.dts;/home/chen/sel4/charvis/kernel/src/plat/qemu-arm-virt/overlay-qemu-arm-virt.dts;/home/chen/sel4/charvis/kernel/src/plat/qemu-arm-virt/overlay-reserve-vm-memory.dts

@@ -1,0 +1,1 @@
+regen /home/chen/sel4/charvis/test/kernel/gen_headers/plat/machine/devices_gen.h /home/chen/sel4/charvis/test/kernel/kernel.dtb;/home/chen/sel4/charvis/kernel/tools/hardware.yml;/home/chen/sel4/charvis/kernel/tools/hardware_schema.yml;/home/chen/sel4/charvis/kernel/tools/hardware_gen.py
